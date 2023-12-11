@@ -42,12 +42,12 @@ app.get("/", (req, res, next) => {
   
   const Mahasiswa = [
     {
-      name: "Diviandini Azzahra",
-      email: "dvndnazhr20@gmail.com",
+      name: "Euis Nurhanifah",
+      email: "euisnurhanifah8@gmail.com",
     }
   ];
   res.render("index", {
-    name: "Andin",
+    name: "Euis",
     title: "Home",
     layout: "layouts/main-layout",
     Mahasiswa: Mahasiswa,
